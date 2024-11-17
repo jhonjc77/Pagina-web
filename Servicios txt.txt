@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Casa De Eventos </title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+<header class="header">
+    <div class="menu container">
+        <a href="#" class=logo>logo</a>
+        <input type="checkbox" id="menu">
+        <label for="menu">
+            <img src="Imagenes/logo.png" class="menu-icono" alt="">
+        </label>
+        <nav class="navbar">
+
+            <ul>
+                <li><a href="Inicio.html">inicio</a></li>
+                <li><a href="Servicios.html">servicios</a></li>
+                <li><a href="#">productos</a></li>
+                <li><a href="#">contactos</a></li>
+
+            </ul>
+        </nav>
+    </div>
+
+   <section class="general g2 container">
+        <h2>Nuestro Equipo</h2>
+        <div class="general-content">
+
+            <div class="genral-4 txt">
+                <h3>Bodas</h3>
+                <img src="Imagenes/Bg.png.png" alt="">
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusamus, adipisci rerum tenetur eligendi
+                    inventore omnis laudantium, ut perferendis blanditiis neque hic, animi tempora aliquam voluptas
+                    fugiat! Voluptate ad nam libero.
+                </p>
+
+                <table>
+                    <thead>
+                      <tr>
+                        <th>Plan</th>
+                        <th>Descripción</th>
+                        <th>Seleccionar</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>Básico</td>
+                        <td>Acceso a funciones esenciales</td>
+                        <td><button onclick="enviarCorreo('Básico')">Seleccionar</button></td>
+                      </tr>
+                      <tr>
+                        <td>Premium</td>
+                        <td>Funciones avanzadas y soporte</td>
+                        <td><button onclick="enviarCorreo('Premium')">Seleccionar</button></td>
+                      </tr>
+                      <tr>
+                        <td>Empresarial</td>
+                        <td>Soluciones personalizadas</td>
+                        <td><button onclick="enviarCorreo('Empresarial')">Seleccionar</button></td>
+                      </tr>
+                    </tbody>
+                  </table>
+                
+                  <script>
+                    function enviarCorreo(plan) {
+                      const destinatario = "tucorreo@ejemplo.com";
+                      const asunto = `Selección de Plan: ${plan}`;
+                      const cuerpo = `Hola, estoy interesado en el plan "${plan}". Por favor, contáctenme para más detalles.`;
+                      
+                      // Crear enlace para enviar el correo
+                      const mailtoLink = `mailto:${destinatario}?subject=${encodeURIComponent(asunto)}&body=${encodeURIComponent(cuerpo)}`;
+                
+                      // Abrir el enlace en una nueva pestaña
+                      window.location.href = mailtoLink;
+                    }
+                  </script>
+
+            </div>
+                 <div class="genral-5 txt">
+            <h3>Ceremonias</h3>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusamus, adipisci rerum tenetur eligendi
+                inventore omnis laudantium, ut perferendis blanditiis neque hic, animi tempora aliquam voluptas
+                fugiat! Voluptate ad nam libero.
+            </p>
+
+            <table>
+                <thead>
+                  <tr>
+                    <th>Plan</th>
+                    <th>Descripción</th>
+                    <th>Seleccionar</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Básico</td>
+                    <td>Acceso a funciones esenciales</td>
+                    <td><button onclick="enviarCorreo('Básico')">Seleccionar</button></td>
+                  </tr>
+                  <tr>
+                    <td>Premium</td>
+                    <td>Funciones avanzadas y soporte</td>
+                    <td><button onclick="enviarCorreo('Premium')">Seleccionar</button></td>
+                  </tr>
+                  <tr>
+                    <td>Empresarial</td>
+                    <td>Soluciones personalizadas</td>
+                    <td><button onclick="enviarCorreo('Empresarial')">Seleccionar</button></td>
+                  </tr>
+                </tbody>
+              </table>
+            
+              <script>
+                function enviarCorreo(plan) {
+                  const destinatario = "tucorreo@ejemplo.com";
+                  const asunto = `Selección de Plan: ${plan}`;
+                  const cuerpo = `Hola, estoy interesado en el plan "${plan}". Por favor, contáctenme para más detalles.`;
+                  
+                  // Crear enlace para enviar el correo
+                  const mailtoLink = `mailto:${destinatario}?subject=${encodeURIComponent(asunto)}&body=${encodeURIComponent(cuerpo)}`;
+            
+                  // Abrir el enlace en una nueva pestaña
+                  window.location.href = mailtoLink;
+                }
+              </script>
+
+                </div>
+            <div class="genral-6 txt">
+                <h3>Quince Años</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusamus, adipisci rerum tenetur eligendi
+                    inventore omnis laudantium, ut perferendis blanditiis neque hic, animi tempora aliquam voluptas
+                    fugiat! Voluptate ad nam libero.
+            </p>
+
+            <table>
+                <thead>
+                  <tr>
+                    <th>Plan</th>
+                    <th>Descripción</th>
+                    <th>Seleccionar</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Básico</td>
+                    <td>Acceso a funciones esenciales</td>
+                    <td><button onclick="enviarCorreo('Básico')">Seleccionar</button></td>
+                  </tr>
+                  <tr>
+                    <td>Premium</td>
+                    <td>Funciones avanzadas y soporte</td>
+                    <td><button onclick="enviarCorreo('Premium')">Seleccionar</button></td>
+                  </tr>
+                  <tr>
+                    <td>Empresarial</td>
+                    <td>Soluciones personalizadas</td>
+                    <td><button onclick="enviarCorreo('Empresarial')">Seleccionar</button></td>
+                  </tr>
+                </tbody>
+              </table>
+            
+              <script>
+                function enviarCorreo(plan) {
+                  const destinatario = "tucorreo@ejemplo.com";
+                  const asunto = `Selección de Plan: ${plan}`;
+                  const cuerpo = `Hola, estoy interesado en el plan "${plan}". Por favor, contáctenme para más detalles.`;
+                  
+                  // Crear enlace para enviar el correo
+                  const mailtoLink = `mailto:${destinatario}?subject=${encodeURIComponent(asunto)}&body=${encodeURIComponent(cuerpo)}`;
+            
+                  // Abrir el enlace en una nueva pestaña
+                  window.location.href = mailtoLink;
+                }
+              </script>
+
+                </div>
+            <div class="genral-7 txt">
+                <h3>Catering</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusamus, adipisci rerum tenetur eligendi
+                    inventore omnis laudantium, ut perferendis blanditiis neque hic, animi tempora aliquam voluptas
+                    fugiat! Voluptate ad nam libero.
+                </p>
+
+                <table>
+                    <thead>
+                      <tr>
+                        <th>Plan</th>
+                        <th>Descripción</th>
+                        <th>Seleccionar</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>Básico</td>
+                        <td>Acceso a funciones esenciales</td>
+                        <td><button onclick="enviarCorreo('Básico')">Seleccionar</button></td>
+                      </tr>
+                      <tr>
+                        <td>Premium</td>
+                        <td>Funciones avanzadas y soporte</td>
+                        <td><button onclick="enviarCorreo('Premium')">Seleccionar</button></td>
+                      </tr>
+                      <tr>
+                        <td>Empresarial</td>
+                        <td>Soluciones personalizadas</td>
+                        <td><button onclick="enviarCorreo('Empresarial')">Seleccionar</button></td>
+                      </tr>
+                    </tbody>
+                  </table>
+                
+                  <script>
+                    function enviarCorreo(plan) {
+                      const destinatario = "tucorreo@ejemplo.com";
+                      const asunto = `Selección de Plan: ${plan}`;
+                      const cuerpo = `Hola, estoy interesado en el plan "${plan}". Por favor, contáctenme para más detalles.`;
+                      
+                      // Crear enlace para enviar el correo
+                      const mailtoLink = `mailto:${destinatario}?subject=${encodeURIComponent(asunto)}&body=${encodeURIComponent(cuerpo)}`;
+                
+                      // Abrir el enlace en una nueva pestaña
+                      window.location.href = mailtoLink;
+                    }
+                  </script>
+
+                </div>
+        </div>
+
+    </section>
+
+</header>
+
+</body>
+</html>
