@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css"> <!-- Vinculación del CSS -->
+    <title>eventos.com - Tu mejor opción para eventos.</title>
+</head>
+<body>
+    <header>
+        <h1>eventos.com</h1>
+    </header>
+
+    <main>
+        <section class="hero">
+            <h2>Planes Bodas</h2>
+            <p>En eventos.com tenemos diferentes servicios para que puedas escoger la boda de tus sueños con las diferentes opciones para que se adapten tanto tu bolsillo como tu necesidad.</p>
+        </section>
+
+        <section class="services">
+            <h3>Servicios para Bodas</h3>
+            <div class="service" data-price="500">
+                <h4>DJ</h4>
+                <p>Servicio de DJ profesional para animar tu evento.</p>
+                <div class="quantity-selector">
+                    <button class="decrease">-</button>
+                    <span class="quantity">0</span>
+                    <button class="increase">+</button>
+                </div>
+            </div>
+            <div class="service" data-price="300">
+                <h4>Meseros</h4>
+                <p>Meseros capacitados para atender a tus invitados.</p>
+                <div class="quantity-selector">
+                    <button class="decrease">-</button>
+                    <span class="quantity">0</span>
+                    <button class="increase">+</button>
+                </div>
+            </div>
+            <div class="service" data-price="200">
+                <h4>Comida adicional</h4>
+                <p>Opciones de comida para complementar tu menú.</p>
+                <div class="quantity-selector">
+                    <button class="decrease">-</button>
+                    <span class="quantity">0</span>
+                    <button class="increase">+</button>
+                </div>
+            </div>
+            <div class="service" data-price="400">
+                <h4>Luces</h4>
+                <p>Iluminación especial para crear el ambiente perfecto.</p>
+                <div class="quantity-selector">
+                    <button class="decrease">-</button>
+                    <span class="quantity">0</span>
+                    <button class="increase">+</button>
+                </div>
+            </div>
+            <div class="service" data-price="600">
+                <h4>Mariachis</h4>
+                <p>Grupo de mariachis para amenizar tu celebración.</p>
+                <div class="quantity-selector">
+                    <button class="decrease">-</button>
+                    <span class="quantity">0</span>
+                    <button class="increase">+</button>
+                </div>
+            </div>
+        </section>
+
+        <div class="total">
+            <h3>Costo Total: <span id="totalCost">$0</span></h3>
+        </div>
+    </main>
+
+    <script src="script.js"></script> <!-- Vinculación del JavaScript -->
+</body>
+</html>
