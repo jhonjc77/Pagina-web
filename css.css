@@ -25,7 +25,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 78vh;
-    align-items: center;
+    align-items: ritgh;
     display: flex;
 }
 .menu{
